@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run curriculum-front-curriculum-front",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/@sap/html5-repo-mock/index.js",
+      "args": [
+        "--standalone",
+        "/curriculum-front/index.html"
+      ],
+      "cwd": "${workspaceFolder}/curriculum-front",
+      "env": {
+        "PORT": "6004",
+        "MOCK_LOOKUP_DIRS": "dist",
+        "run.config": "{\"handlerId\":\"html5_run_config_handler_id\",\"runnableId\":\"/home/user/projects/curriculum-front/curriculum-front\"}"
+      },
+      "envFile": "${workspaceFolder}/curriculum-front/.env3",
+      "preLaunchTask": "Run curriculum-front"
+    }
+  ]
+}

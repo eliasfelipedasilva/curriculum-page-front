@@ -1,0 +1,24 @@
+{
+  "sap.app": {
+    "id": "curriculum-front",
+    "applicationVersion": {
+      "version": "1.0.0"
+    }
+  },
+    "crossNavigation": {
+      "inbounds": {
+          "intent1": {
+              "signature": {
+                  "parameters": {},
+                  "additionalParameters": "allowed"
+              },
+              "semanticObject": "vuedemo",
+              "action": "display",
+              "title": "Suppliers"
+          }
+      }
+  },
+  "sap.cloud": {
+    "service": "curriculum-front-id"
+  }
+}
